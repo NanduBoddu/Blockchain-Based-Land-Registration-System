@@ -1,4 +1,4 @@
-# boundary-graph-dapp
+# Blockchain-Based-Land-Registration-System
 
 This project has been generated using AlgoKit. See below for default getting started instructions.
 
