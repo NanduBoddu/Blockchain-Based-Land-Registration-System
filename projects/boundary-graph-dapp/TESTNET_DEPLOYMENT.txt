@@ -1,0 +1,8 @@
+BoundaryGraph TestNet Deployment
+
+Network: Algorand TestNet
+LandRegistry App ID: 769056796
+Application Address:
+DA2IRDDFZFEY2XKHACMWDNFFCFK66AV4FL4UNESVAUPAAN5Y2CAGIDHYAE
+
+LocalNet App ID: 1080

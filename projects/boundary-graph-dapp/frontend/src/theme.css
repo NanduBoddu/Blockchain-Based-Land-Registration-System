@@ -1,0 +1,498 @@
+/* =========================================================
+   BOUNDARYGRAPH - FINAL LIGHT / DARK THEME
+   Keeps original App.css dark theme untouched.
+   ========================================================= */
+
+/* ---------- LIGHT THEME ---------- */
+
+html[data-theme="light"],
+html[data-theme="light"] body {
+  background: #f4f7fb !important;
+  color: #172033 !important;
+}
+
+html[data-theme="light"] .app {
+  background:
+    radial-gradient(circle at top left, rgba(0, 212, 170, 0.07), transparent 30%),
+    radial-gradient(circle at top right, rgba(108, 99, 255, 0.07), transparent 30%),
+    #f4f7fb !important;
+  color: #172033 !important;
+}
+
+
+/* NAVBAR */
+
+html[data-theme="light"] .navbar {
+  background: rgba(255, 255, 255, 0.96) !important;
+  border-bottom: 1px solid #dfe6ef !important;
+  color: #172033 !important;
+}
+
+html[data-theme="light"] .logo {
+  color: #172033 !important;
+}
+
+html[data-theme="light"] .network-badge {
+  background: #ecfaf6 !important;
+  border-color: #bcecdf !important;
+  color: #08785f !important;
+}
+
+
+/* HERO */
+
+html[data-theme="light"] .hero h1 {
+  color: #172033 !important;
+}
+
+html[data-theme="light"] .hero-highlight {
+  background: linear-gradient(90deg, #00bfa0, #665cff) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
+
+html[data-theme="light"] .hero p {
+  color: #5f6c80 !important;
+}
+
+
+/* DASHBOARD HEADINGS */
+
+html[data-theme="light"] .dashboard,
+html[data-theme="light"] .dashboard-title,
+html[data-theme="light"] .dashboard-title h2 {
+  color: #172033 !important;
+}
+
+html[data-theme="light"] .connection {
+  color: #08a97f !important;
+}
+
+
+/* STAT CARDS */
+
+html[data-theme="light"] .stat-card {
+  background: #ffffff !important;
+  border: 1px solid #dde5ef !important;
+  box-shadow: 0 8px 25px rgba(20, 40, 70, 0.06) !important;
+  color: #172033 !important;
+}
+
+html[data-theme="light"] .stat-card:hover {
+  border-color: rgba(0, 190, 155, 0.45) !important;
+  box-shadow: 0 12px 30px rgba(20, 40, 70, 0.1) !important;
+}
+
+html[data-theme="light"] .stat-label {
+  color: #68768a !important;
+}
+
+html[data-theme="light"] .stat-value {
+  color: #111827 !important;
+}
+
+html[data-theme="light"] .stat-sub {
+  color: #718096 !important;
+}
+
+
+/* ACTIONS */
+
+html[data-theme="light"] .actions-card {
+  background: #ffffff !important;
+  border: 1px solid #dde5ef !important;
+  box-shadow: 0 8px 25px rgba(20, 40, 70, 0.06) !important;
+  color: #172033 !important;
+}
+
+html[data-theme="light"] .actions-card h3 {
+  color: #172033 !important;
+}
+
+html[data-theme="light"] .secondary-btn {
+  background: #edf2f7 !important;
+  border: 1px solid #d7e0eb !important;
+  color: #172033 !important;
+}
+
+
+/* INFORMATION CARDS */
+
+html[data-theme="light"] .info-box {
+  background: #ffffff !important;
+  border: 1px solid #dde5ef !important;
+  box-shadow: 0 8px 25px rgba(20, 40, 70, 0.05) !important;
+}
+
+html[data-theme="light"] .info-box h4 {
+  color: #172033 !important;
+}
+
+html[data-theme="light"] .info-box p {
+  color: #657287 !important;
+}
+
+
+/* FOOTER */
+
+html[data-theme="light"] .footer {
+  color: #68768a !important;
+  border-top-color: #dfe6ef !important;
+}
+
+
+/* =========================================================
+   MODALS
+   ========================================================= */
+
+html[data-theme="light"] .modal-card,
+html[data-theme="light"] .lands-modal-card,
+html[data-theme="light"] .graph-modal-card,
+html[data-theme="light"] .verify-modal-card,
+html[data-theme="light"] .add-boundary-modal-card,
+html[data-theme="light"] .verify-land-modal-card {
+  background: #ffffff !important;
+  color: #172033 !important;
+  border: 1px solid #dce4ee !important;
+  box-shadow: 0 25px 70px rgba(20, 35, 60, 0.18) !important;
+}
+
+html[data-theme="light"] .modal-header h2 {
+  color: #172033 !important;
+}
+
+html[data-theme="light"] .modal-header p {
+  color: #657287 !important;
+}
+
+html[data-theme="light"] .close-btn {
+  background: #edf2f7 !important;
+  color: #253247 !important;
+  border-color: #d8e1ec !important;
+}
+
+
+/* FORMS */
+
+html[data-theme="light"] .form-group label {
+  color: #253247 !important;
+}
+
+html[data-theme="light"] .form-group input,
+html[data-theme="light"] .form-group select {
+  background: #ffffff !important;
+  color: #172033 !important;
+  border: 1px solid #cfd9e6 !important;
+}
+
+html[data-theme="light"] .form-group input::placeholder {
+  color: #98a4b5 !important;
+}
+
+html[data-theme="light"] .form-group select option {
+  background: #ffffff !important;
+  color: #172033 !important;
+}
+
+html[data-theme="light"] .form-group small {
+  color: #718096 !important;
+}
+
+html[data-theme="light"] .cancel-btn {
+  background: #edf2f7 !important;
+  border-color: #d7e0eb !important;
+  color: #253247 !important;
+}
+
+
+/* =========================================================
+   LAND TABLE
+   ========================================================= */
+
+html[data-theme="light"] .lands-table th {
+  color: #66758a !important;
+  border-color: #e3e9f1 !important;
+}
+
+html[data-theme="light"] .lands-table td {
+  color: #253247 !important;
+  border-color: #e3e9f1 !important;
+}
+
+html[data-theme="light"] .lands-table tbody tr:hover {
+  background: #f5f8fc !important;
+}
+
+html[data-theme="light"] .lands-loading,
+html[data-theme="light"] .lands-empty {
+  color: #68768a !important;
+}
+
+
+/* =========================================================
+   BOUNDARY GRAPH
+   ========================================================= */
+
+html[data-theme="light"] .graph-summary-card {
+  background: #f6f8fb !important;
+  border-color: #dfe6ef !important;
+  color: #172033 !important;
+}
+
+html[data-theme="light"] .graph-summary-card span {
+  color: #68768a !important;
+}
+
+html[data-theme="light"] .boundary-edge-card {
+  background: #f7f9fc !important;
+  color: #172033 !important;
+}
+
+html[data-theme="light"] .boundary-edge-card:hover {
+  background: #f0f5f9 !important;
+}
+
+html[data-theme="light"] .graph-land-node {
+  background: #ffffff !important;
+  border-color: #dce4ee !important;
+  color: #172033 !important;
+}
+
+html[data-theme="light"] .connection-badge {
+  background: #edf2f7 !important;
+  border-color: #d7e0eb !important;
+  color: #536176 !important;
+}
+
+html[data-theme="light"] .boundary-status-row span {
+  background: #edf2f7 !important;
+  color: #536176 !important;
+}
+
+html[data-theme="light"] .boundary-details {
+  background: #f7f9fc !important;
+  color: #172033 !important;
+}
+
+html[data-theme="light"] .boundary-details-header button {
+  background: #edf2f7 !important;
+  color: #253247 !important;
+  border-color: #d7e0eb !important;
+}
+
+html[data-theme="light"] .boundary-details-grid div,
+html[data-theme="light"] .boundary-hash-box {
+  background: #ffffff !important;
+  border: 1px solid #e1e7ef !important;
+}
+
+
+/* =========================================================
+   VERIFY BOUNDARY
+   ========================================================= */
+
+html[data-theme="light"] .verify-load-btn {
+  background: #edf2f7 !important;
+  color: #172033 !important;
+}
+
+html[data-theme="light"] .verify-load-btn:hover {
+  background: #e2e8f0 !important;
+}
+
+html[data-theme="light"] .verify-boundary-card {
+  background: #f7f9fc !important;
+  border-color: #dfe6ef !important;
+  color: #172033 !important;
+}
+
+html[data-theme="light"] .verify-grid div,
+html[data-theme="light"] .verify-hash {
+  background: #ffffff !important;
+  border: 1px solid #e1e7ef !important;
+}
+
+html[data-theme="light"] .verify-grid strong {
+  color: #172033 !important;
+}
+
+
+/* ADD BOUNDARY */
+
+html[data-theme="light"] .boundary-preview {
+  background: #f7f9fc !important;
+  border-color: #dfe6ef !important;
+}
+
+html[data-theme="light"] .boundary-preview strong {
+  background: #ffffff !important;
+  color: #172033 !important;
+  border: 1px solid #e1e7ef !important;
+}
+
+
+/* VERIFY LAND */
+
+html[data-theme="light"] .verify-land-grid div,
+html[data-theme="light"] .verify-owner-box {
+  background: #f7f9fc !important;
+  color: #172033 !important;
+  border: 1px solid #e1e7ef !important;
+}
+
+
+/* =========================================================
+   RECENT BLOCKCHAIN ACTIVITY
+   ========================================================= */
+
+html[data-theme="light"] .recent-activity-card {
+  background: #ffffff !important;
+  border: 1px solid #dde5ef !important;
+  box-shadow: 0 8px 25px rgba(20, 40, 70, 0.06) !important;
+  color: #172033 !important;
+}
+
+html[data-theme="light"] .activity-header h3 {
+  color: #172033 !important;
+}
+
+html[data-theme="light"] .activity-header p {
+  color: #68768a !important;
+}
+
+html[data-theme="light"] .activity-item {
+  background: #f7f9fc !important;
+  border: 1px solid #e0e7f0 !important;
+}
+
+html[data-theme="light"] .activity-icon {
+  background: #eaf0f6 !important;
+}
+
+html[data-theme="light"] .activity-main strong {
+  color: #172033 !important;
+}
+
+html[data-theme="light"] .activity-main span {
+  color: #718096 !important;
+}
+
+html[data-theme="light"] .activity-tx {
+  color: #087e68 !important;
+}
+
+html[data-theme="light"] .activity-loading,
+html[data-theme="light"] .activity-error,
+html[data-theme="light"] .activity-empty {
+  background: #f7f9fc !important;
+}
+
+
+/* =========================================================
+   WALLET
+   Keep wallet visually blockchain-like even in light mode
+   ========================================================= */
+
+html[data-theme="light"] .wallet-address-box {
+  background: #141922 !important;
+  border-color: #293140 !important;
+}
+
+html[data-theme="light"] .wallet-address-box small {
+  color: #8f9bad !important;
+}
+
+html[data-theme="light"] .wallet-address-box strong {
+  color: #ffffff !important;
+}
+
+html[data-theme="light"] .wallet-connect-btn {
+  background: #eafaf5 !important;
+  color: #078568 !important;
+  border-color: #b9eadc !important;
+}
+
+
+/* =========================================================
+   GENERIC TEXT SAFETY
+   Fixes hard-coded white text in custom auth / landing UI
+   ========================================================= */
+
+html[data-theme="light"] .app h1:not(.hero-highlight),
+html[data-theme="light"] .app h2,
+html[data-theme="light"] .app h3,
+html[data-theme="light"] .app h4 {
+  color: #172033;
+}
+
+
+/* Do NOT destroy gradient hero text */
+
+html[data-theme="light"] .app .hero-highlight {
+  color: transparent !important;
+}
+
+
+/* LINKS */
+
+html[data-theme="light"] a {
+  color: #087e68;
+}
+
+
+/* SCROLLBAR */
+
+html[data-theme="light"] ::-webkit-scrollbar {
+  width: 10px;
+}
+
+html[data-theme="light"] ::-webkit-scrollbar-track {
+  background: #eef2f7;
+}
+
+html[data-theme="light"] ::-webkit-scrollbar-thumb {
+  background: #bcc7d5;
+  border-radius: 10px;
+}
+
+
+/* =========================================================
+   RESPONSIVE NAVBAR IMPROVEMENT
+   ========================================================= */
+
+@media (max-width: 1100px) {
+  .navbar {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .navbar-right {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 850px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+}
+/* Professional theme icon button */
+.theme-toggle-btn {
+  width: 46px;
+  height: 46px;
+  padding: 0 !important;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.theme-toggle-btn svg {
+  width: 21px;
+  height: 21px;
+  display: block;
+}

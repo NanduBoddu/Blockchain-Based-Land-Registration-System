@@ -178,3 +178,20 @@ node_modules
 debug_traces/
 .algokit/static-analysis/ # Replace with .algokit/static-analysis/tealer/ to enable snapshot checks in CI
 .algokit/sources
+.env.testnet
+dispenser_token.txt
+frontend_MODULE*_BACKUP/
+backup_module2/
+test_land_registry_*_SUCCESS.py
+
+# Local backups
+backups/
+frontend_MODULE*_BACKUP/
+frontend_*_BACKUP/
+
+# Local database
+backend/data/*.db
+backend/data/*.db-*
+
+# Frontend build output
+frontend/dist/
