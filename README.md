@@ -1,4 +1,4 @@
-# boundary-graph-dapp
+# Blockchain-Based-Land-Registration-System
 
 Welcome to your new AlgoKit project!
 
